@@ -1,0 +1,38 @@
+# -----------------------
+# Node / Frontend
+# -----------------------
+/node_modules
+/.pnp
+.pnp.js
+/build
+
+# npm / yarn logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# misc
+.DS_Store
+/favicon.ico
+/logo192.png
+/logo512.png
+/manifest.json
+
+# -----------------------
+# Python / Backend
+# -----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+
+# Database (optional)
+tasks.db
